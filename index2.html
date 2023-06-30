@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+
+</head>
+
+<body>
+    <div class="pri_container">
+        <div class="sub_container">
+        <h1>Sign Up</h1><br>
+        <form class="form_class" aciton="" name="myForm" onsubmit="return validateForm()" method="post">
+            <div class="formdesign" id="name">
+                <br><input placeholder="Name" type="text" name="fname" required><br><b><span class="formerror"> </span></b>
+            </div>
+
+            <div class="formdesign" id="email">
+                <br><input placeholder="Email" type="email" name="femail" required><br><b><span class="formerror"> </span></b>
+            </div>
+
+            <div class="formdesign" id="phone">
+                <br><input placeholder="Phone" type="phone" name="fphone" required><br><b><span class="formerror"> </span></b>
+            </div>
+
+            <div class="formdesign" id="pass">
+                <br><input placeholder="Password" type="password" name="fpass" required><br><b><span class="formerror"> </span> </b>
+            </div>
+
+            <div class="formdesign" id="cpass">
+                <br><input placeholder="Confirm Password" type="password" name="fcpass" required><br>
+                <b><span class="formerror"> </span> </b>
+            </div>
+
+            <br><input class="but1" type="submit" value="Submit">
+            <input class="but2" type="submit" value="Clear Form">
+
+        </form>
+    </div>
+    </div>
+</body>
+
+<script src="index2.js"></script>
+
+</html>
